@@ -1,0 +1,61 @@
+pageid,title,primary_category,original_word_count,summary_word_count,compression_ratio,similarity_score
+5796,"Brazilian President party received money from FARC, say documents",Politics and conflicts,2380,950,0.3991596638655462,0.9912133
+17357,Burundian Hutu extremists have killed 300 civilians in the last two months,Politics and conflicts,326,96,0.294478527607362,0.89198494
+40939,Spanish Socialist Workers' Party proposes human rights bill for great apes,Politics and conflicts,354,146,0.4124293785310734,0.8697026
+2880582,Kurds announce deal with Assad's government as Turkey invades Syria's northeast,Politics and conflicts,361,120,0.3324099722991689,0.8568318
+51675,IRA disbands military structure,Politics and conflicts,639,225,0.352112676056338,0.7843817
+99214,Australian parliament to apologise to Stolen Generations,Politics and conflicts,267,83,0.3108614232209737,0.7931837
+172507,Car bomb explodes near MI5 army base in Northern Ireland,Politics and conflicts,294,108,0.3673469387755102,0.8501346
+72105,North Korea launches missile in 'military drill',Politics and conflicts,113,48,0.4247787610619469,0.861851
+149618,Bomb explosion in Somaliland kills four cops,Politics and conflicts,185,44,0.2378378378378378,0.66234607
+48669,Iran voices defiance towards nuclear deadline,Politics and conflicts,363,98,0.2699724517906336,0.91716945
+252515,Qatar becomes first Arab country to fly fighter jets over Libya,Politics and conflicts,249,74,0.2971887550200803,0.88129234
+47239,Nigeria hands over disputed area to Cameroon,Politics and conflicts,898,257,0.2861915367483296,0.86635166
+4464,Howard Dean elected chairman of U.S. Democrats,Politics and conflicts,259,100,0.3861003861003861,0.8455846
+76558,"Karl Rove, senior political advisor to President Bush will resign",Politics and conflicts,116,45,0.3879310344827586,0.9435228
+78417,White House spokesman Tony Snow stepping down,Politics and conflicts,141,46,0.3262411347517731,0.88452125
+5761,Slovakia on track to adopt euro in 2009,Economy and business,202,78,0.3861386138613861,0.90879464
+262153,IMF head remains in New York prison; charged over alleged hotel sex attack,Economy and business,557,207,0.3716337522441651,0.8651656
+121365,"Brazil's Embraer plans to cut around 4,200 jobs",Economy and business,307,102,0.3322475570032573,0.87185013
+11040,Ryanair passenger numbers up 34%,Economy and business,170,64,0.3764705882352941,0.81415224
+45095,EU fines Microsoft €280.5 million,Economy and business,169,39,0.2307692307692307,0.8780134
+52460,Nobel Peace Prize to Muhammad Yunus and the Grameen Bank,Economy and business,135,71,0.5259259259259259,0.8642505
+8072,Romanian economy predicted to maintain steady growth until 2008,Economy and business,430,142,0.3302325581395349,0.83852124
+13309,Romania redenominates its currency,Economy and business,607,217,0.357495881383855,0.962428
+118131,Market maker Bernard L. Madoff arrested in $50B 'giant Ponzi scheme',Economy and business,701,224,0.3195435092724679,0.93277097
+2830341,"Apple, Inc. confirms acquisition of Shazam",Economy and business,224,65,0.2901785714285714,0.80170107
+114565,Worldwide markets fall precipitously,Economy and business,209,72,0.3444976076555024,0.8516774
+2854643,Technology giant Microsoft completes acquisition of GitHub,Economy and business,295,109,0.3694915254237288,0.8586924
+2939597,UAE to impose corporate tax on business profits,Economy and business,126,43,0.3412698412698413,0.8091989
+240545,Toyota recalls 1.7m cars after new concerns,Economy and business,182,68,0.3736263736263736,0.9205674
+30932,Free Software Foundation releases first draft of GPLv3,Economy and business,337,123,0.3649851632047478,0.92799497
+23973,Apple introduces new iPod with video playback capabilities,Science and technology,320,117,0.365625,0.8714586
+115506,India's first lunar mission launched,Science and technology,271,78,0.2878228782287823,0.6780211
+7587,Wikimedia announces Yahoo! support,Science and technology,187,63,0.3368983957219251,0.9147674
+195689,Fire strikes Slovak Academy of Sciences,Science and technology,214,69,0.322429906542056,0.90651155
+185638,SpaceX launches first Falcon 9 rocket,Science and technology,348,101,0.2902298850574712,0.6129066
+250064,Japan earthquake shifts Earth's axis 10 centimetres,Science and technology,374,193,0.516042780748663,0.7714365
+7679,Mozilla Foundation prepares third Firefox security update,Science and technology,240,78,0.325,0.8698921
+723166,Study: Taste of beer causes chemical reward in male brain,Science and technology,256,64,0.25,0.7806583
+108421,Technology giants battle for USB 3.0 standards,Science and technology,194,55,0.2835051546391752,0.84733796
+57107,Wikipedia founder Jimmy Wales to start wiki-based search engine,Science and technology,194,67,0.345360824742268,0.8250856
+10367,Endangered cow cloned in Brazil,Science and technology,226,90,0.3982300884955752,0.91694254
+129614,Foxconn employee commits suicide over missing iPhone in China,Science and technology,184,33,0.1793478260869565,0.7546507
+2854354,Simple animals could live in Martian brines: Wikinews interviews planetary scientist Vlada Stamenković,Science and technology,794,231,0.2909319899244332,0.80885637
+6645,"Magnitude 8.7 earthquake hits Northern Sumatra, Indonesia",Science and technology,380,118,0.3105263157894737,0.8851708
+142516,NASA completes successful test flight of new Ares IX rocket,Science and technology,304,82,0.2697368421052631,0.8764032
+143973,German football goalkeeper Robert Enke is dead,Sports,137,39,0.2846715328467153,0.8741019
+74157,Tour de France: Filippo Pozzato wins stage 5,Sports,104,30,0.2884615384615384,0.6687534
+46689,Jenson Button wins 2006 Hungarian Grand Prix,Sports,195,63,0.3230769230769231,0.76867795
+98466,New York Giants upset New England Patriots' quest for perfect season,Sports,301,115,0.3820598006644518,0.8563272
+104827,Wikinews interviews Mr. Orange of IWL in Taiwan about wrestling,Sports,1171,293,0.2502134927412468,0.88462096
+1968775,Scottish footballer Dave Mackay dies aged 80,Sports,207,63,0.3043478260869565,0.8490766
+245885,2011 Cricket World Cup: India vs Bangladesh,Sports,248,52,0.2096774193548387,0.8582883
+26635,Peter Forsberg scores two in win over the Boston Bruins,Sports,146,37,0.2534246575342466,0.7686258
+42751,"Germany wins, 4-2 over Costa Rica in first World Cup match",Sports,302,119,0.3940397350993377,0.7720335
+45245,"Juventus, Lazio and Fiorentina relegated from Italy's Serie A",Sports,543,163,0.3001841620626151,0.7693849
+2845310,Spanish Football Federation sacks Lopetegui as team's head coach one day before FIFA World Cup,Sports,376,142,0.3776595744680851,0.9220414
+203416,Two time Tour de France winner Laurent Fignon dies at age 50,Sports,162,55,0.3395061728395062,0.8970678
+106697,Lewis Hamilton wins 2008 Monaco Grand Prix,Sports,355,98,0.276056338028169,0.6420325
+191131,United States and England open World Cup with 1–1 draw,Sports,270,103,0.3814814814814815,0.7358989
+8364,Armstrong announces retirement from professional cycling,Sports,263,76,0.2889733840304182,0.8848466
