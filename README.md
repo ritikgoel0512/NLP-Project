@@ -80,6 +80,13 @@ The classification pipeline uses:
 - stratified train-test splitting
 - accuracy, precision, recall, F1-score, and confusion-matrix evaluation
 
+Final test performance:
+
+- Accuracy: 0.909
+- Macro precision: 0.910
+- Macro recall: 0.909
+- Macro F1-score: 0.910
+
 ### Turing College Requirements Covered
 
 1. Text preprocessing and grammatical-role identification

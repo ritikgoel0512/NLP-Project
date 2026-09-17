@@ -3,11 +3,10 @@
 from __future__ import annotations
 
 import json
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Iterable
 
 import pandas as pd
-
 
 SELECTED_CATEGORIES = [
     "Politics and conflicts",
@@ -76,9 +75,7 @@ def filter_by_categories(
 
     mask = dataframe["categories"].apply(
         lambda values: bool(
-            category_set.intersection(values)
-            if isinstance(values, list)
-            else set()
+            category_set.intersection(values) if isinstance(values, list) else set()
         )
     )
 
@@ -121,13 +118,15 @@ def count_selected_categories(
     counts = {}
 
     for category in categories:
-        counts[category] = dataframe["categories"].apply(
-            lambda values: (
-                category in values
-                if isinstance(values, list)
-                else False
+        counts[category] = (
+            dataframe["categories"]
+            .apply(
+                lambda values, category=category: (
+                    category in values if isinstance(values, list) else False
+                )
             )
-        ).sum()
+            .sum()
+        )
 
     return pd.Series(counts, name="article_count")
 
@@ -141,14 +140,10 @@ def select_analysis_sample(
     samples = []
 
     for category in SELECTED_CATEGORIES:
-        category_frame = dataframe.loc[
-            dataframe["primary_category"] == category
-        ]
+        category_frame = dataframe.loc[dataframe["primary_category"] == category]
 
         if len(category_frame) < articles_per_category:
-            raise ValueError(
-                f"Not enough articles for category: {category}"
-            )
+            raise ValueError(f"Not enough articles for category: {category}")
 
         sample = category_frame.sample(
             n=articles_per_category,
@@ -160,6 +155,8 @@ def select_analysis_sample(
     result = pd.concat(samples, ignore_index=True)
 
     return result
+
+
 def filter_exclusive_categories(
     dataframe: pd.DataFrame,
     categories: Iterable[str],
@@ -171,25 +168,15 @@ def filter_exclusive_categories(
         if not isinstance(values, list):
             return []
 
-        return [
-            category
-            for category in category_list
-            if category in values
-        ]
+        return [category for category in category_list if category in values]
 
     result = dataframe.copy()
 
-    result["matched_categories"] = result["categories"].apply(
-        matched_categories
-    )
+    result["matched_categories"] = result["categories"].apply(matched_categories)
 
-    result = result.loc[
-        result["matched_categories"].str.len() == 1
-    ].copy()
+    result = result.loc[result["matched_categories"].str.len() == 1].copy()
 
-    result["primary_category"] = result[
-        "matched_categories"
-    ].str[0]
+    result["primary_category"] = result["matched_categories"].str[0]
 
     return result
 
