@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+spacy
+sentence-transformers
+networkx
+nltk
+jupyter
+ipykernel
+tqdm
+textstat
+ruff
+pytest
